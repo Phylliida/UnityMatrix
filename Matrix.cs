@@ -211,7 +211,7 @@ public class Matrix
         return q;
     }
 
-    public Vector3 ToVec4()
+    public Vector4 ToVec4()
     {
         float[] arr = ToArray();
 
