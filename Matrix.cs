@@ -26,8 +26,8 @@ public class Matrix
         {
             mat[i] = new float[values[0].Length];
         }
-        for (int i = 0; i < cols; ++i)
-            for (int j = 0; j < rows; ++j)
+        for (int i = 0; i < rows; ++i)
+            for (int j = 0; j < cols; ++j)
                 mat[i][j] = values[i][j];
     }
 
